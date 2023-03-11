@@ -1,0 +1,8 @@
+# log every hour
+@hourly echo 'hourly' >> ~/ltab.log
+
+# log every day
+@daily echo 'daily' >> ~/ltab.log
+
+# log every week
+@weekly echo 'weekly' >> ~/ltab.log

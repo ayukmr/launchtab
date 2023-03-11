@@ -1,0 +1,2 @@
+# log every hour
+@hourly echo 'hello' >> ~/ltab.log

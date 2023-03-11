@@ -1,0 +1,46 @@
+!!! XML
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+%plist
+  %dict
+    -# label
+    %key Label
+    %string launchtab-#{@id}
+
+    -# program
+    %key Program
+    %string= @program
+
+    -# intervals
+    %key StartCalendarInterval
+    %array
+      - @mins.each do |min|
+        - @hours.each do |hour|
+          - @days.each do |day|
+            - @months.each do |month|
+              - @wdays.each do |wday|
+                %dict
+                  -# minute
+                  - if min != :any
+                    %key Minute
+                    %integer= min
+
+                  -# hour
+                  - if hour != :any
+                    %key Hour
+                    %integer= hour
+
+                  -# day
+                  - if day != :any
+                    %key Day
+                    %integer= day
+
+                  -# month
+                  - if month != :any
+                    %key Month
+                    %integer= month
+
+                  -# weekday
+                  - if wday != :any
+                    %key Weekday
+                    %integer= wday
