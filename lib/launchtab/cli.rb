@@ -23,10 +23,10 @@ module LaunchTab
       # show help and exit
       def help
         puts <<~HELP
-          #{'Usage'.magenta.bold}:
+          #{'usage'.magenta.bold}:
             #{'ltab'.cyan} #{'<file>'.yellow}
 
-          #{'Examples'.magenta.bold}:
+          #{'examples'.magenta.bold}:
             #{'ltab'.cyan} #{'services.ltab'.yellow}  add services from services.ltab
         HELP
 
