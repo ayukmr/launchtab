@@ -22,7 +22,7 @@ module LaunchTab
       ), rendered)
 
       # show message
-      puts "generated service `launchtab-#{@id}.plist`".cyan
+      puts "generated service `launchtab-#{@id}.plist`".blue
     end
   end
 end

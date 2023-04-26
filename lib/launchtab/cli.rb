@@ -24,10 +24,10 @@ module LaunchTab
       def help
         puts <<~HELP
           #{'usage'.magenta.bold}:
-            #{'ltab'.cyan} #{'<file>'.yellow}
+            #{'ltab'.blue} #{'<file>'.yellow}
 
           #{'examples'.magenta.bold}:
-            #{'ltab'.cyan} #{'services.ltab'.yellow}  add services from services.ltab
+            #{'ltab'.blue} #{'services.ltab'.yellow}  add services from services.ltab
         HELP
 
         exit 0
