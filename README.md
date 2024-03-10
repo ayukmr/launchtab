@@ -1,7 +1,7 @@
 <img src="media/logo.png" alt="launchtab logo" width="125" align="right">
 
 # `launchtab` - crontab files for launchctl
-### `launchtab` is a command-line tool which helps with bridging the gap between crontab and launchctl
+### `launchtab` is a command-line tool which bridges the gap between crontab and launchctl
 
 ## Usage
 `launchtab` is easy to use and has no configuration.
